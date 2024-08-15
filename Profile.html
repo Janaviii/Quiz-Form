@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body
+{
+    margin: 0;
+    padding: 50; 
+    background-color: pink;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-116875.jpg?w=2000");
+    width: 70%;
+    background-repeat: no-repeat,repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+h2
+{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    background-color: darkturquoise;
+}
+.profile
+{
+    width: 382px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+label
+{
+    color: black;
+    font-size: 17px;
+}
+#Name
+{
+    width: 320px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#Age
+{
+    width: 340px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#Gender
+{
+    width: 320px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#BloodG
+{
+    width: 319px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#submit
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 7px;
+    font-size: 15px;
+    border-color: skyblue;
+    background-color: skyblue;
+}
+span
+{
+    color: black;
+    font-size: 17pxs;
+}
+    </style>
+    <center>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Profile</title>
+</head>
+<body>
+    <h2>Profile</h2>
+    <div class="profile">
+        <form id="profile" method="get" action="profile.php">
+            <label><b>Name</b></label>
+            <input type="text" name="Name" id="Name" placeholder="Name"><br><br>
+            <label><b>Age</b></label>
+            <input type="text" name="Age" id="Age" placeholder="Age"/><br><br>
+            <label><b>Gender</b></label>
+            <input type="text" name="Gender" id="Gender" placeholder="Gender"/><br><br>
+            <label><b>Blood Group</b></label>
+            <input type="text" name="BloodG" id="BloodG" placeholder="Blood Group"><br><br>
+            <label><b>City :</b></label><br><br>
+            <input type="radio" name="f1" id="f1">Mumbai<br>
+            <input type="radio" name="f1" id="f1">Pune<br><br>
+            <a href="Home.html"><input type="button" name="submit" id="submit" value="Submit"></a>
+        </form>
+    </div>  
+</body>
+</center>
+</html>

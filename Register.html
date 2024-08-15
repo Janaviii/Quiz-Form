@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body
+{
+    margin: 0;
+    padding: 50; 
+    background-color: pink;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-116875.jpg?w=2000");
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+h2
+{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    background-color: darkturquoise;
+}
+.register
+{
+    width: 382px;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+label
+{
+    color: black;
+    font-size: 17px;
+}
+#Uname
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#Pass
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#RePass
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#Email
+{
+    width: 325px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: black;
+    border-bottom: 2px solid darkturquoise;
+}
+#reg
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 7px;
+    font-size: 15px;
+    border-color: skyblue;
+    background-color: skyblue;
+}
+span
+{
+    color: black;
+    font-size: 17pxs;
+}
+    </style>
+    <center>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration Page</title>
+</head>
+<body>
+    <h2>Registration Page</h2>
+    <div class="register">
+        <form id="register" method="get" action="register.php">
+            <label><b>Username</b></label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username"><br><br>
+            <label><b>Set Password</b></label>
+            <input type="password" name="Pass" id="Pass" placeholder="Set Password"><br><br>
+            <label><b>Confirm Password</b></label>
+            <input type="password" name="RePass" id="RePass" placeholder="Confirm Password"><br><br>
+            <label><b>Email</b></label>
+            <input type="email" name="Email" id="Email" placeholder="Email"><br><br>
+            <input type="checkbox" name="check" id="check">
+            <span>I accept all the terms and conditions</span><br><br>
+            <a href="Profile.html"><input type="button" name="reg" id="reg" value="Register"></a>
+        </form>
+    </div> 
+</body>
+</center>
+</html>
